@@ -1,0 +1,29 @@
+﻿生成启动时间为 2019/2/25 星期一 14:34:03。
+     1>项目“E:\canDel\protobuf-2.6.1\vsprojects\test_plugin.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, libprotoc.vcxproj, protoc.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../src /I. /I../gtest/include /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _CONSOLE /D _VARIADIC_MAX=10 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 ..\src\google\protobuf\compiler\test_plugin.cc ..\src\google\protobuf\compiler\mock_code_generator.cc ..\src\google\protobuf\testing\file.cc
+         test_plugin.cc
+         mock_code_generator.cc
+         file.cc
+         正在生成代码...
+     1>项目“E:\canDel\protobuf-2.6.1\vsprojects\test_plugin.vcxproj”(1)正在节点 1 上生成“E:\canDel\protobuf-2.6.1\vsprojects\libprotoc.vcxproj”(4:3) (GetResolvedLinkLibs 个目标)。
+     4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, protoc.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>项目“E:\canDel\protobuf-2.6.1\vsprojects\test_plugin.vcxproj”(1)正在节点 2 上生成“E:\canDel\protobuf-2.6.1\gtest\msvc\gtest.vcxproj”(2:3) (GetResolvedLinkLibs 个目标)。
+     2>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (gtest_main.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     2>已完成生成项目“E:\canDel\protobuf-2.6.1\gtest\msvc\gtest.vcxproj”(GetResolvedLinkLibs 个目标)的操作。
+     4>已完成生成项目“E:\canDel\protobuf-2.6.1\vsprojects\libprotoc.vcxproj”(GetResolvedLinkLibs 个目标)的操作。
+     1>Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\canDel\protobuf-2.6.1\vsprojects\x64\Release\test_plugin.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\canDel\protobuf-2.6.1\vsprojects\x64\Release\test_plugin.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\canDel\protobuf-2.6.1\vsprojects\x64\Release\test_plugin.lib" /MACHINE:X64 x64\Release\test_plugin.obj
+         x64\Release\mock_code_generator.obj
+         x64\Release\file.obj
+         "E:\canDel\protobuf-2.6.1\vsprojects\x64\Release\gtest.lib"
+         "E:\canDel\protobuf-2.6.1\vsprojects\x64\Release\libprotobuf.lib"
+         "E:\canDel\protobuf-2.6.1\vsprojects\x64\Release\libprotoc.lib"
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/OPT:ICF”规范)
+         test_plugin.vcxproj -> E:\canDel\protobuf-2.6.1\vsprojects\x64\Release\test_plugin.exe
+     1>已完成生成项目“E:\canDel\protobuf-2.6.1\vsprojects\test_plugin.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.05

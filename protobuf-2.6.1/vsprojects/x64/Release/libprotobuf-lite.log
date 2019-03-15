@@ -1,0 +1,38 @@
+﻿生成启动时间为 2019/2/25 星期一 14:33:32。
+     1>项目“E:\canDel\protobuf-2.6.1\vsprojects\libprotobuf-lite.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (libprotobuf.vcxproj, libprotoc.vcxproj, protoc.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../src /I. /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBPROTOBUF_EXPORTS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 ..\src\google\protobuf\io\coded_stream.cc ..\src\google\protobuf\stubs\common.cc ..\src\google\protobuf\extension_set.cc ..\src\google\protobuf\generated_message_util.cc ..\src\google\protobuf\message_lite.cc ..\src\google\protobuf\stubs\once.cc ..\src\google\protobuf\stubs\atomicops_internals_x86_msvc.cc ..\src\google\protobuf\repeated_field.cc ..\src\google\protobuf\wire_format_lite.cc ..\src\google\protobuf\io\zero_copy_stream.cc ..\src\google\protobuf\io\zero_copy_stream_impl_lite.cc ..\src\google\protobuf\stubs\stringprintf.cc
+         coded_stream.cc
+         common.cc
+         extension_set.cc
+         generated_message_util.cc
+         message_lite.cc
+         once.cc
+         atomicops_internals_x86_msvc.cc
+         repeated_field.cc
+         wire_format_lite.cc
+         zero_copy_stream.cc
+         zero_copy_stream_impl_lite.cc
+         stringprintf.cc
+         正在生成代码...
+     1>e:\candel\protobuf-2.6.1\src\google\protobuf\extension_set.cc(74): warning C4715: “google::protobuf::internal::`anonymous namespace'::is_packable”: 不是所有的控件路径都返回值
+       Lib:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\canDel\protobuf-2.6.1\vsprojects\x64\Release\libprotobuf-lite.lib" /NOLOGO /MACHINE:X64 x64\Release\coded_stream.obj
+         x64\Release\common.obj
+         x64\Release\extension_set.obj
+         x64\Release\generated_message_util.obj
+         x64\Release\message_lite.obj
+         x64\Release\once.obj
+         x64\Release\atomicops_internals_x86_msvc.obj
+         x64\Release\repeated_field.obj
+         x64\Release\wire_format_lite.obj
+         x64\Release\zero_copy_stream.obj
+         x64\Release\zero_copy_stream_impl_lite.obj
+         x64\Release\stringprintf.obj
+         libprotobuf-lite.vcxproj -> E:\canDel\protobuf-2.6.1\vsprojects\x64\Release\libprotobuf-lite.lib
+     1>已完成生成项目“E:\canDel\protobuf-2.6.1\vsprojects\libprotobuf-lite.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.79

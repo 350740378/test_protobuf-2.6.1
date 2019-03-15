@@ -1,0 +1,93 @@
+﻿生成启动时间为 2019/2/25 星期一 14:31:30。
+     1>项目“E:\canDel\protobuf-2.6.1\vsprojects\libprotoc.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (libprotobuf.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../src /I. /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBPROTOC_EXPORTS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 ..\src\google\protobuf\compiler\java\java_doc_comment.cc ..\src\google\protobuf\compiler\code_generator.cc ..\src\google\protobuf\compiler\command_line_interface.cc ..\src\google\protobuf\compiler\subprocess.cc ..\src\google\protobuf\compiler\zip_writer.cc ..\src\google\protobuf\compiler\plugin.cc ..\src\google\protobuf\compiler\plugin.pb.cc ..\src\google\protobuf\compiler\cpp\cpp_enum.cc ..\src\google\protobuf\compiler\cpp\cpp_enum_field.cc ..\src\google\protobuf\compiler\cpp\cpp_extension.cc ..\src\google\protobuf\compiler\cpp\cpp_field.cc ..\src\google\protobuf\compiler\cpp\cpp_file.cc ..\src\google\protobuf\compiler\cpp\cpp_generator.cc ..\src\google\protobuf\compiler\cpp\cpp_helpers.cc ..\src\google\protobuf\compiler\cpp\cpp_message.cc ..\src\google\protobuf\compiler\cpp\cpp_message_field.cc ..\src\google\protobuf\compiler\cpp\cpp_primitive_field.cc ..\src\google\protobuf\compiler\cpp\cpp_service.cc ..\src\google\protobuf\compiler\cpp\cpp_string_field.cc ..\src\google\protobuf\compiler\java\java_context.cc ..\src\google\protobuf\compiler\java\java_enum.cc ..\src\google\protobuf\compiler\java\java_enum_field.cc ..\src\google\protobuf\compiler\java\java_extension.cc ..\src\google\protobuf\compiler\java\java_field.cc ..\src\google\protobuf\compiler\java\java_file.cc ..\src\google\protobuf\compiler\java\java_generator.cc ..\src\google\protobuf\compiler\java\java_generator_factory.cc ..\src\google\protobuf\compiler\java\java_helpers.cc ..\src\google\protobuf\compiler\java\java_lazy_message_field.cc ..\src\google\protobuf\compiler\java\java_message.cc ..\src\google\protobuf\compiler\java\java_message_field.cc ..\src\google\protobuf\compiler\java\java_name_resolver.cc ..\src\google\protobuf\compiler\java\java_primitive_field.cc ..\src\google\protobuf\compiler\java\java_service.cc ..\src\google\protobuf\compiler\java\java_shared_code_generator.cc ..\src\google\protobuf\compiler\java\java_string_field.cc ..\src\google\protobuf\compiler\python\python_generator.cc
+         java_doc_comment.cc
+         code_generator.cc
+         command_line_interface.cc
+         subprocess.cc
+         zip_writer.cc
+         plugin.cc
+         plugin.pb.cc
+         cpp_enum.cc
+         cpp_enum_field.cc
+         cpp_extension.cc
+         cpp_field.cc
+         cpp_file.cc
+         cpp_generator.cc
+         cpp_helpers.cc
+         cpp_message.cc
+     1>..\src\google\protobuf\compiler\cpp\cpp_message.cc(692): warning C4065: switch 语句包含“default”但是未包含“case”标签
+         cpp_message_field.cc
+         cpp_primitive_field.cc
+         cpp_service.cc
+         cpp_string_field.cc
+         java_context.cc
+         正在生成代码...
+         正在编译...
+         java_enum.cc
+         java_enum_field.cc
+         java_extension.cc
+         java_field.cc
+         java_file.cc
+         java_generator.cc
+         java_generator_factory.cc
+         java_helpers.cc
+         java_lazy_message_field.cc
+         java_message.cc
+         java_message_field.cc
+         java_name_resolver.cc
+         java_primitive_field.cc
+         java_service.cc
+         java_shared_code_generator.cc
+         java_string_field.cc
+         python_generator.cc
+         正在生成代码...
+     1>项目“E:\canDel\protobuf-2.6.1\vsprojects\libprotoc.vcxproj”(1)正在节点 2 上生成“E:\canDel\protobuf-2.6.1\vsprojects\libprotobuf.vcxproj”(2:3) (GetResolvedLinkLibs 个目标)。
+     2>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (libprotoc.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     2>已完成生成项目“E:\canDel\protobuf-2.6.1\vsprojects\libprotobuf.vcxproj”(GetResolvedLinkLibs 个目标)的操作。
+     1>Lib:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\canDel\protobuf-2.6.1\vsprojects\x64\Release\libprotoc.lib" /NOLOGO /MACHINE:X64 x64\Release\java_doc_comment.obj
+         x64\Release\code_generator.obj
+         x64\Release\command_line_interface.obj
+         x64\Release\subprocess.obj
+         x64\Release\zip_writer.obj
+         x64\Release\plugin.obj
+         x64\Release\plugin.pb.obj
+         x64\Release\cpp_enum.obj
+         x64\Release\cpp_enum_field.obj
+         x64\Release\cpp_extension.obj
+         x64\Release\cpp_field.obj
+         x64\Release\cpp_file.obj
+         x64\Release\cpp_generator.obj
+         x64\Release\cpp_helpers.obj
+         x64\Release\cpp_message.obj
+         x64\Release\cpp_message_field.obj
+         x64\Release\cpp_primitive_field.obj
+         x64\Release\cpp_service.obj
+         x64\Release\cpp_string_field.obj
+         x64\Release\java_context.obj
+         x64\Release\java_enum.obj
+         x64\Release\java_enum_field.obj
+         x64\Release\java_extension.obj
+         x64\Release\java_field.obj
+         x64\Release\java_file.obj
+         x64\Release\java_generator.obj
+         x64\Release\java_generator_factory.obj
+         x64\Release\java_helpers.obj
+         x64\Release\java_lazy_message_field.obj
+         x64\Release\java_message.obj
+         x64\Release\java_message_field.obj
+         x64\Release\java_name_resolver.obj
+         x64\Release\java_primitive_field.obj
+         x64\Release\java_service.obj
+         x64\Release\java_shared_code_generator.obj
+         x64\Release\java_string_field.obj
+         x64\Release\python_generator.obj
+         libprotoc.vcxproj -> E:\canDel\protobuf-2.6.1\vsprojects\x64\Release\libprotoc.lib
+     1>已完成生成项目“E:\canDel\protobuf-2.6.1\vsprojects\libprotoc.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:26.37

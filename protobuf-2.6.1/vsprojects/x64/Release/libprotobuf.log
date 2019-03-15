@@ -1,0 +1,44 @@
+﻿生成启动时间为 2019/2/25 星期一 14:34:03。
+     1>项目“E:\canDel\protobuf-2.6.1\vsprojects\libprotobuf.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotoc.vcxproj, protoc.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Lib:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\canDel\protobuf-2.6.1\vsprojects\x64\Release\libprotobuf.lib" /NOLOGO /MACHINE:X64 x64\Release\coded_stream.obj
+         x64\Release\common.obj
+         x64\Release\descriptor.obj
+         x64\Release\descriptor.pb.obj
+         x64\Release\descriptor_database.obj
+         x64\Release\dynamic_message.obj
+         x64\Release\extension_set.obj
+         x64\Release\extension_set_heavy.obj
+         x64\Release\generated_message_reflection.obj
+         x64\Release\generated_message_util.obj
+         x64\Release\gzip_stream.obj
+         x64\Release\strtod.obj
+         x64\Release\importer.obj
+         x64\Release\message.obj
+         x64\Release\message_lite.obj
+         x64\Release\once.obj
+         x64\Release\atomicops_internals_x86_msvc.obj
+         x64\Release\parser.obj
+         x64\Release\printer.obj
+         x64\Release\reflection_ops.obj
+         x64\Release\repeated_field.obj
+         x64\Release\service.obj
+         x64\Release\structurally_valid.obj
+         x64\Release\strutil.obj
+         x64\Release\substitute.obj
+         x64\Release\text_format.obj
+         x64\Release\tokenizer.obj
+         x64\Release\unknown_field_set.obj
+         x64\Release\wire_format.obj
+         x64\Release\wire_format_lite.obj
+         x64\Release\zero_copy_stream.obj
+         x64\Release\zero_copy_stream_impl.obj
+         x64\Release\zero_copy_stream_impl_lite.obj
+         x64\Release\stringprintf.obj
+         libprotobuf.vcxproj -> E:\canDel\protobuf-2.6.1\vsprojects\x64\Release\libprotobuf.lib
+     1>已完成生成项目“E:\canDel\protobuf-2.6.1\vsprojects\libprotobuf.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.29
